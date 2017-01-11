@@ -93,7 +93,7 @@ h5.post-description a, article a, .news a {
   color: #B509AC;
   font-weight: 100; }
 
-h5.post-description a, article a:hover, .news a:hover {
+h5.post-description a:hover, article a:hover, .news a:hover {
     text-decoration: underline; }
 
 .social a {
