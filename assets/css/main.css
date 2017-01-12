@@ -394,7 +394,7 @@ div.equation {
     .bibliography li span {
       display: block; }
     .bibliography li .title {
-      font-weight: bolder; }
+      font-weight: 500; }
     .bibliography li .author a {
       border-bottom: 1px dashed #B509AC; }
       .bibliography li .author a:hover {
