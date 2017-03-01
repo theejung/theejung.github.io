@@ -96,6 +96,13 @@ h5.post-description a, article a, .news a {
 h5.post-description a:hover, article a:hover, .news a:hover {
     text-decoration: underline; }
 
+h4.post-description a, article a, .news a {
+  color: #B509AC;
+  font-weight: 100; }
+
+h4.post-description a:hover, article a:hover, .news a:hover {
+    text-decoration: underline; }
+
 .social a {
   color: #666; }
   .social a:hover {
