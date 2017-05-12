@@ -119,19 +119,20 @@
       <h3 class="year">Jan - May 2017</h3>
       <ol class="bibliography"><li>
       <div id="Jan - May 2017">
-          <span class="title">SP 500 Stock Portfolio</span>
+          <span class="title">SP 500 Stock Portfolio Optimiazation using Sentiment Features</span>
           <span class="author">
                     Taehee Jung, Lev Golod, Temi N Lal
           </span> 
           <span class="publisher">
               <br>
               <em>Class Project: Capstone Project(STAT222), UC Berkeley</em>
-              <br><a href="http://theejung.github.io/files/Stock_Portfolio_Final2.pptx">Presentation</a> | <a href="http://theejung.github.io/files/STAT222_finalwr_TAEHEE JUNG.pdf">Write-up</a>
-              <br> • Construct a portfolio of stocks (and some U.S. Treasury bonds) to maximize profit and minimize risk             
-              <br> • 2 main steps for the project
-              <br>   1. Volatility prediction with several data resources (Previous stock volatility, volume and sentiment analysis) 
-              <br>   2. Choosing an initial portfolio with good risk/return and automatically updating over time, as more data rolls in
-              <br> • Get higher return and low risk compared with naive portfolio and SP500 portfolio
+              <br><a href="/files/Stock_Portfolio_Final2.pptx">Presentation</a> | <a href="/files/STAT222_finalwr_TAEHEE JUNG.pdf">Write-up</a>
+              <br>Our main task is to develop an algorithm that will create and update a portfolio of stocks from among the Standard and Poor’s 500 and United States Treasury Bonds. 
+              Our goal is a sparse portfolio that achieves returns similar to those of the SP Index, with lower volatility. 
+              Stock selection is achieved by solving an optimization problem. 
+              The original optimization routine came from Brodie et al’s paper, but we modified the objective function by including a vector of predicted stock volatilities, in order to emphasize our goal of minimizing overall portfolio volatility.
+              In order to predict the volatility of each stock, we used Vector Autoregressive (VAR) model with added feature volume and a 24 month training window. 
+              Our selection algorithm showed very strong results during the testing period (2014-2016), achieving higher returns and lower volatility than both the SP 500 index and a naive portfolio.
             <br><img class = "two" src="http://theejung.github.io/files/13.jpg">
             <br>
 
